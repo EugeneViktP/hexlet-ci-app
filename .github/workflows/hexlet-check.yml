@@ -3,8 +3,8 @@ on: push
 jobs:
   build:
     runs-on: ubntu-latest
-      steps:
-        - uses: action/checkout@v3
-        - uses: make setup
-        - uses: make test
-        - uses: make lint
+    steps:
+      - uses: action/checkout@v3
+      - uses: make setup
+      - uses: make test
+      - uses: make lint
