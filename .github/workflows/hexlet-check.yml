@@ -1,8 +1,8 @@
 name: hexlet-check
 on: push
-  jobs:
-    build:
-      runs-on: ubntu-latest
+jobs:
+  build:
+    runs-on: ubntu-latest
       steps:
         - uses: action/checkout@v3
         - uses: make setup
